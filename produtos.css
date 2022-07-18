@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.Cabecalho{
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.808), rgb(0, 0, 0), rgb(0, 0, 0),rgb(0, 0, 0));
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+.caixa{
+    
+    position: relative;
+    width: 940px;
+    margin: 0  auto;
+
+}
+
+nav{
+    position: absolute;
+    color: white;
+    top:110px;
+    right:30px;
+
+}
+
+nav li{
+    display: inline;
+    margin: 15px;
+    
+       
+}
+
+nav a {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+ 
+}
+
+button{
+    width: 120px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    border:solid;
+    border-radius: 50px;
+    border-bottom: 45px;
+ 
+}
+
+button:hover{
+    background-color:rgb(245, 245, 86);
+    cursor: pointer;
+    
+}
+
+
+.Conteudo-produtos h2:hover{
+    cursor: pointer;
+    color: rgb(245, 245, 86)
+    
+}
+
+.produtos h2{
+    font-weight: bold;
+}
+
+.Conteudo-produtos{
+    width: 940px;
+    margin: 0 auto;
+    margin-top: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+.Conteudo-produtos li{
+    display: inline-block;
+    text-align: center;
+    width:30%;
+    vertical-align: top;
+    padding: 50 auto ;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: solid 2px  black;
+    border-radius: 10px;
+    
+  
+    
+}
+
+.Conteudo-produtos li:hover{
+    border: solid rgb(245, 245, 86);
+    cursor: pointer;
+    font-size: 30px;
+
+
+}
+
+.Conteudo-produtos li:active{
+    border-color:rgb(60, 231, 111);
+
+}
+
+
+
+
+.Descrição{
+    font-family:'Roboto', sans-serif;
+}
+
+.preço-produto{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0px 0px;
+}
+
+footer{
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+    background: url(bg.jpg);
+    margin-top: 30px;
+    padding-top: 30px 0 ;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.Logo-rodapé{
+    margin-left:500px;
+    margin-top: 50px;
+    
+}
+
+.Copy{
+    font-size: 15px;
+}
